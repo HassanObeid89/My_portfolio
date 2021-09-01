@@ -1,0 +1,43 @@
+nav {
+    position: sticky;
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+  nav .bar {
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 25%;
+    bottom: 25%;
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  nav .bar a {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #C4C4C4;
+    text-decoration: none;
+  }
+
+
+  nav span {
+    width: 80px;
+    height: 80px;
+  }
+
+  nav span a img {
+    width: 85px;
+    height: 80px;
+    /* font-size: calc(2px + 1vmin) */
+  }
+

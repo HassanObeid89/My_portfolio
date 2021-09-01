@@ -1,8 +1,10 @@
+@import './components/Navbar.css';
+
 .App {
   text-align: center;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -11,4 +13,44 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container {
+  width: 100%;
+  height: 90vh;
+  background-color: aqua;
+  background-size: cover;
+}
+
+.about-container {
+  width: 100%;
+  height: 90vh;
+  background-color: wheat;
+  background-size: cover;
+}
+
+.contact-container {
+  width: 100%;
+  height: 90vh;
+  background-color: red;
+  background-size: cover;
+}
+
+.project-container {
+  width: 100%;
+  height: 90vh;
+  background-color: gold;
+  background-size: cover;
+}
+
+.tech-container {
+  width: 100%;
+  height: 90vh;
+  background-color: khaki;
+  background-size: cover;
 }
