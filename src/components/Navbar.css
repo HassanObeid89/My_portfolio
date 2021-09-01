@@ -4,8 +4,8 @@ nav {
     height: 80px;
     left: 0px;
     top: 0px;
-    background-color: #000000;
-    opacity: 0.5;
+    /* background-color: #000000;
+    opacity: 0.5; */
   }
   nav .bar {
     position: absolute;
