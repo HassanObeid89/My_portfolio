@@ -1,6 +1,8 @@
-@import './components/Navbar.css';
-@import './components/HeroSection.css';
-@import './components/AboutSection.css';
+@import './components/css/Navbar.css';
+@import './components/css/HeroSection.css';
+@import './components/css/AboutSection.css';
+@import './components/css/ProjectSection.css';
+@import './components/css/Card.css';
 
 .App {
   text-align: center;
@@ -33,16 +35,46 @@
   background-size: cover;
 }
 
-.project-container {
-  width: 100%;
-  height: 90vh;
-  background-color: gold;
-  background-size: cover;
-}
+
 
 .tech-container {
   width: 100%;
   height: 90vh;
   background-color: khaki;
   background-size: cover;
+}
+
+
+/* shared Css between sections*/
+
+ p {
+  padding: 0 24px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  line-break: auto;
+  margin-bottom: 16px;
+
+}
+
+ h2 {
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+  margin: 48px 24px 16px 24px;
+}
+
+h3 {
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 22px;
+width: 156px;
+text-align: left;
+margin-block-start: 4px;
+margin-block-end: 16px;
 }

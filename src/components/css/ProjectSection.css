@@ -1,0 +1,12 @@
+.project-container {
+    width: 100%;
+    background-color: #EEEEEE;
+
+  }
+
+  .project-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+  }

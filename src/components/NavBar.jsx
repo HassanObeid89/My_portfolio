@@ -21,7 +21,6 @@ export default function NavBar() {
         <Link smooth to="#tech">
           Tech
         </Link>
-
         <Link smooth to="#contact">
           Contact
         </Link>

@@ -1,5 +1,6 @@
 import React from 'react'
 import profile from "../assets/Hassan_obeid.jpg";
+
 export default function AboutSection() {
     return (
         <div id='about' className='about-container'>

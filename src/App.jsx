@@ -12,9 +12,9 @@ export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <ScrollToTop />
+        {/* <ScrollToTop /> */}
         <NavBar />
-      </BrowserRouter>
+      
       <div className="content-container">
         <HeroSection />
         <AboutSection />
@@ -22,6 +22,7 @@ export default function App() {
         <TechSection />
         <ContactSection />
       </div>
+      </BrowserRouter>
     </div>
   );
 }
