@@ -29,7 +29,7 @@ export const data= [
     "image": package_tracker,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@ export const data= [
     "image": todo_list,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   },
   {
     "id": "5",
@@ -45,7 +45,7 @@ export const data= [
     "image": Ecommerce,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   },
   {
     "id": "6",
@@ -53,7 +53,7 @@ export const data= [
     "image": BBQ,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   },
   {
     "id": "7",
@@ -61,7 +61,7 @@ export const data= [
     "image": learning_platform,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   },
   {
     "id": "5",
@@ -69,6 +69,6 @@ export const data= [
     "image": netflix,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":true
+    "completed":false
   }
 ]

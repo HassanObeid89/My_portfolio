@@ -15,25 +15,38 @@ export default function ContactSection() {
       <ul>
         <li>
           <HiOutlineMail />
-          <label>hassan.obeid.ho@hotmail.com</label>
+          <label>
+            <a href="mailto:hassan.obeid.ho@hotmail.com">
+              hassan.obeid.ho@hotmail.com
+            </a>
+          </label>
         </li>
         <li>
           <AiOutlinePhone />
-          <label>+46 76 585 6630</label>
+          <label>
+            <a href="tel:+46765856630">+46 76 585 6630</a>
+          </label>
         </li>
         <li>
           <GoLocation />
           <label>Stockholm, Sweden</label>
         </li>
       </ul>
-      
+
       <footer className="footer">
         <ul>
           <li>
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com/in/hassan-obeid-975bb4158/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
           </li>
           <li>
-            <FaGithubSquare />
+            <a href="https://github.com/HassanObeid89" target="_blank">
+              <FaGithubSquare />
+            </a>
           </li>
         </ul>
 
