@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import {data} from '../data/Projects';
+import {data} from '../data/ProjectsList';
 
 
 export default function ProjectsSection() {
