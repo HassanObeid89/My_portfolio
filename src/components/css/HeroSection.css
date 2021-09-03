@@ -15,3 +15,20 @@
     font-size: 34px;
     line-height: 41px;
   }
+
+  @media screen and (min-width: 550px){
+    .hero-container h1 {
+      width: 30%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%);
+      transform: translateX(-50%);
+      margin: 0 24px ;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 50px;
+      text-align: center;
+    }
+  }

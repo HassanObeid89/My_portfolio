@@ -1,6 +1,6 @@
 nav {
     position: sticky;
-    width: 375px;
+    width: 100%;
     height: 80px;
     left: 0px;
     top: 0px;
@@ -40,6 +40,20 @@ nav {
   nav span a img {
     width: 85px;
     height: 80px;
-    /* font-size: calc(2px + 1vmin) */
+    
   }
 
+  @media screen and (min-width: 550px){
+    nav {
+      background-color: black;
+    }
+    
+    nav .bar a{
+      font-size: 24px;
+    }
+    nav span a img {
+      width: 190px;
+      height: 170px;
+      
+    }
+  }

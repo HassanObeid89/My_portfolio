@@ -12,7 +12,7 @@ export const data= [
     "title": "Shopping list",
     "image": shoppingList,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
+    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form',],
     "completed":true
   },
   {
