@@ -7,8 +7,14 @@ export default function Modal({ open, onClose, project }) {
     <>
       <div className="overLay" onClick={onClose} />
       <div className="modal-container">
-        <FaWindowClose style={{fontSize:'30px'}} className="icon" onClick={onClose} />
+        <div className='header'>
+        <FaWindowClose
+          style={{ fontSize: "30px" }}
+          className="icon"
+          onClick={onClose}
+        />
         <img src={project.image} />
+        </div>
         <div className="content-wrapper">
           <h2>{project.title}</h2>
           <p>{project.description}</p>

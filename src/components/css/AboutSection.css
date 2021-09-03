@@ -10,4 +10,27 @@
     border-radius: 100%;
   }
 
+  @media screen and (min-width: 550px){
+    .about-content {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .about-content p {
+      width: 30%;
+      margin-left: 18px;
+    }
+    .about-container h2{
+      text-align: center;
+      padding-left: 0px;
+      margin-left: 0px;
+      font-size: 42px;
+    }
+    .about-container{
+      height:450px;
+    }
+  }
+
   

@@ -8,6 +8,7 @@ export default function ContactSection() {
   return (
     <div className="contact-container" id="contact">
       <h2>Contact me</h2>
+      <div className='contact-content'>
       <p>
         Here is my contact information if you are interested in starting a
         collaboration.
@@ -32,7 +33,7 @@ export default function ContactSection() {
           <label>Stockholm, Sweden</label>
         </li>
       </ul>
-
+      </div>
       <footer className="footer">
         <ul>
           <li>
