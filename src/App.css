@@ -5,6 +5,7 @@
 @import './components/css/Card.css';
 @import './components/css/Modal.css';
 @import './components/css/Tech.css';
+@import './components/css/Contact.css';
 
 
 .App {
@@ -21,26 +22,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 } */
-
-.content-container {
-  display: flex;
-  flex-direction: column;
-}
-
-
-
-
-
-.contact-container {
-  width: 100%;
-  height: 90vh;
-  background-color: red;
-  background-size: cover;
-}
-
-
-
-
 
 /* shared Css between sections*/
 
@@ -61,17 +42,17 @@
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 22px;
-  margin: 48px 24px 16px 24px;
+  
+  padding: 48px 24px 16px 24px;
 }
 
 h3 {
   font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 22px;
-width: 156px;
-text-align: left;
-margin-block-start: 4px;
-margin-block-end: 16px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  width: 156px;
+  text-align: left;
+  margin-block-start: 4px;
+  margin-block-end: 16px;
 }
