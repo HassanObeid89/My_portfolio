@@ -3,7 +3,7 @@
 @import './components/css/AboutSection.css';
 @import './components/css/ProjectSection.css';
 @import './components/css/Card.css';
-
+@import './components/css/Modal.css';
 .App {
   text-align: center;
 }
