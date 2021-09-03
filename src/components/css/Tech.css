@@ -1,0 +1,29 @@
+  .tech-container {
+    width: 100%;
+    background-color: white;
+  }
+
+  .tech-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-inline-start: 23px;
+    /* padding-inline-end: 23px; */
+  }
+
+  .item-wrapper {
+      width: 60px;
+      margin: 16px 8px;
+  }
+  .item-wrapper li {
+    list-style: none;
+    color: #C4C4C4 ;
+}
+
+.item-wrapper li span {
+    margin-bottom: 8px;
+}
+
+.item-wrapper li label {
+    font-size: 12px;
+}
