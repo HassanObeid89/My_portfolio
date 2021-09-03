@@ -6,7 +6,7 @@
     background-color: #fff;
     z-index: 10000;
     width: 90%;
-    height: 80%;
+    height: 90%;
     
 }
 
@@ -26,15 +26,16 @@
 }
 
 .modal-container h2 {
-    margin: 16px 8px 16px 8px;
+    padding: 16px 8px 0px 8px;
 }
 .modal-container .icon {
     position: absolute;
-    left: 90%;
+    left: 89%;
     top: 1%;
+    color: brown;
 }
 .modal-container p {
-    margin: 16px 8px 16px 8px;
+    margin: 8px 8px 16px 8px;
     padding: 0px;
 }
 

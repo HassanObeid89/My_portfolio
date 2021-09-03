@@ -6,7 +6,7 @@ export default function Card({ project }) {
     <div className="card-container">
       <li>
         <div className={`active ${project.completed ? "inactive" : ""}`}>
-          COMMING SOON
+          COMING SOON
         </div>
         <img onClick={() => setIsOpen(true)} src={project.image} />
         <h3>{project.title}</h3>
