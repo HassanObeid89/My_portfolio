@@ -1,11 +1,12 @@
 import React from "react";
 import profile from "../assets/Hassan_obeid.jpg";
 
+// To make it easy to organize the files, put this component in a special folder called "sections" or similar.
 export default function AboutSection() {
   return (
     <div id="about" className="about-container">
       <h2>About Me</h2>
-      <div className='about-content'>
+      <div className="about-content">
         <p>
           Hi! I’m Hassan, a junior frontend developer. This is my website, which
           I use to showcase everything I developer. I specialize in React

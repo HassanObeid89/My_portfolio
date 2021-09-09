@@ -8,6 +8,7 @@ import {
 } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 
+// Coupling: Data files only should contain data no React code.  -1
 export const TechnologyList = [
   {
     name: "React",
