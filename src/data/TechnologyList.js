@@ -1,52 +1,54 @@
-import { GrReactjs } from "react-icons/gr";
-import {
-  SiTypescript,
-  SiPhp,
-  SiFirebase,
-  SiPostgresql,
-  SiJavascript,
-} from "react-icons/si";
-import { FaSass } from "react-icons/fa";
-
+import reactLogo from '../assets/technologies_logo/react.png'
+import javascript from '../assets/technologies_logo/javascript.png'
+import typescript from '../assets/technologies_logo/typescript.png'
+import sass from '../assets/technologies_logo/sass.png'
+import firebase from '../assets/technologies_logo/firebase.png'
+import php from '../assets/technologies_logo/php.png'
+import postgresql from '../assets/technologies_logo/postgresql.png'
+import laravel from '../assets/technologies_logo/laravel.png'
 export const TechnologyList = [
   {
     name: "React",
-    logo: <GrReactjs style={{ fontSize: "50px" }} />,
+    logo: reactLogo,
   },
   {
     name: "JavaScript",
-    logo: <SiJavascript style={{ fontSize: "50px" }} />,
+    logo: javascript,
   },
   {
     name: "TypeScript",
-    logo: <SiTypescript style={{ fontSize: "50px" }} />,
+    logo: typescript,
   },
   {
     name: "SASS",
-    logo: <FaSass style={{ fontSize: "50px" }} />,
+    logo: sass,
   },
   {
     name: "Firebase Auth",
-    logo: <SiFirebase style={{ fontSize: "50px" }} />,
+    logo: firebase,
   },
   {
     name: "FireStore",
-    logo: <SiFirebase style={{ fontSize: "50px" }} />,
+    logo: firebase,
   },
   {
     name: "CloudStorage",
-    logo: <SiFirebase style={{ fontSize: "50px" }} />,
+    logo: firebase,
   },
   {
     name: "React-native",
-    logo: <GrReactjs style={{ fontSize: "50px" }} />,
+    logo: reactLogo,
   },
   {
     name: "PHP",
-    logo: <SiPhp style={{ fontSize: "50px" }} />,
+    logo: php
   },
   {
     name: "Postgresql",
-    logo: <SiPostgresql style={{ fontSize: "50px" }} />,
+    logo: postgresql
   },
+  {
+    name: "laravel",
+    logo: laravel
+  }
 ];
