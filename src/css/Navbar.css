@@ -32,14 +32,14 @@ nav ul {
 nav.black .menu{
   background-color: #000;
   transition: 0.6s ease;
-  top: 10%;
+  top: 13%;
 }
 nav.black .logo {
   background: #000;
-  transition: 0.6s ease;
+  transition: 0.6s ease;  
 }
 nav.black img {
-  max-width: 20%;
+  max-width: 30%;
   transition: 0.6s ease;
 }
 
@@ -52,11 +52,24 @@ nav ul li a {
   text-decoration: none;
   font-size: 16px;
   letter-spacing: 2px;
-  color: #C4C4C4;
+  color: rgba(230,120,52,255);
   font-weight: bolder;
 }
 
-
+@media screen and (min-width: 550px){
+  .logo img {
+    max-width: 10%;
+    height: auto;
+  }
+  .logo {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+    margin: 0 0;
+    width: 100%;
+  }
+}
 
 
 
