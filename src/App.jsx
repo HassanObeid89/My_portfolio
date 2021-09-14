@@ -6,23 +6,18 @@ import TechSection from "./components/TechSection";
 import ContactSection from "./components/ContactSection";
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        {/* <ScrollToTop /> */}
         <NavBar />
-      
-      <div className="content-container">
+        
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
         <TechSection />
         <ContactSection />
-      </div>
-      </BrowserRouter>
+  
     </div>
   );
 }

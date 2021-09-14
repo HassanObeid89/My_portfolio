@@ -1,12 +1,15 @@
-@import './components/css/Navbar.css';
-@import './components/css/HeroSection.css';
-@import './components/css/AboutSection.css';
-@import './components/css/ProjectSection.css';
-@import './components/css/Card.css';
-@import './components/css/Modal.css';
-@import './components/css/Tech.css';
-@import './components/css/Contact.css';
+@import './css/Navbar.css';
+@import './css/HeroSection.css';
+@import './css/AboutSection.css';
+@import './css/ProjectSection.css';
+@import './css/Card.css';
+@import './css/Modal.css';
+@import './css/Tech.css';
+@import './css/Contact.css';
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 .App {
   text-align: center;
