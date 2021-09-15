@@ -8,7 +8,7 @@ import learning_platform from '../assets/card_images/learning_platform.jpg';
 import netflix from '../assets/card_images/netflix.jpg';
 export const data= [
   {
-    "id": "1",
+    "id": 1,
     "title": "Shopping list",
     "image": shoppingList,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -16,7 +16,7 @@ export const data= [
     "completed":true
   },
   {
-    "id": "2",
+    "id": 2,
     "title": "Vegan restaurant website",
     "image": vegan,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -24,7 +24,7 @@ export const data= [
     "completed":true
   },
   {
-    "id": "3",
+    "id": 3,
     "title": "Package tracker",
     "image": package_tracker,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -32,7 +32,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": "4",
+    "id": 4,
     "title": "Todo list TTD",
     "image": todo_list,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -40,7 +40,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": "5",
+    "id": 5,
     "title": "E-commerce site",
     "image": Ecommerce,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -48,7 +48,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": "6",
+    "id": 6,
     "title": "BBQ restaurant",
     "image": BBQ,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -56,7 +56,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": "7",
+    "id": 7,
     "title": "Learning platform",
     "image": learning_platform,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -64,7 +64,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": "5",
+    "id": 8,
     "title": "Netflix clone",
     "image": netflix,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",

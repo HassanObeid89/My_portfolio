@@ -4,7 +4,7 @@ import ProjectModal from "./ProjectModal";
 
 export default function ProjectsSection({ setModal }) {
   const cards = data.map((project) => (
-    <Card project={project} onClick={() => setProject(project)} />
+    <Card key={project.id} project={project} onClick={() => setProject(project)} />
   ));
 
   function setProject(project) {

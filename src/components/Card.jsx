@@ -5,7 +5,7 @@ export default function Card({ project, onClick }) {
         <div className={`active ${project.completed ? "inactive" : ""}`}>
           COMING SOON
         </div>
-        <img onClick={onClick} src={project.image} />
+        <img onClick={onClick} src={project.image} alt=''/>
         <h3>{project.title}</h3>
       </li>
     </div>
