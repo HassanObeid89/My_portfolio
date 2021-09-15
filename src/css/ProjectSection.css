@@ -1,23 +1,23 @@
 .project-container {
-    width: 100%;
-    background-color: #EEEEEE;
-    background-size: cover;
-  }
+  width: 100%;
+  background-color: #eeeeee;
+  background-size: cover;
+}
 
-  .project-container ul {
+.project-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+@media screen and (min-width: 550px) {
+  .project-content {
     display: flex;
-    flex-wrap: wrap;
+    width: 60%;
     justify-content: center;
-    padding-inline-start: 0;
-  }
-
-  @media screen and (min-width: 550px){
-    .project-content {
-      display: flex;
-      width: 60%;
-      justify-content: center;
-      justify-items: center;
-      margin: 0 auto;
+    justify-items: center;
+    margin: 0 auto;
   }
   .project-container h2 {
     width: 57%;
@@ -27,6 +27,4 @@
   .project-container ul {
     justify-content: left;
   }
-  
-  }
-  
+}

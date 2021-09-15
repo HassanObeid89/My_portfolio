@@ -3,10 +3,10 @@ export default function ProjectModal({ project }) {
   const pill = pills.map((pill) => <li>{pill}</li>);
   return (
     <div className="modal-project">
-        <div className="header">
-          <img src={image} />
-        </div>
-        <div className="content-wrapper">
+      <div className="header">
+        <img src={image} />
+      </div>
+      <div className="content-wrapper">
         <h2>{title}</h2>
         <p>{description}</p>
         <ul>{pill}</ul>

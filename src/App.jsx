@@ -9,16 +9,16 @@ import ModalContainer from "./components/ModalContainer";
 import "./App.css";
 
 export default function App() {
-  const [modal, setModal] = useState(null)
+  const [modal, setModal] = useState(null);
   return (
     <div className="App">
-        <NavBar />
-        <HeroSection />
-        <AboutSection />
-        <ProjectsSection setModal={setModal} />
-        <TechSection />
-        <ContactSection />
-        <ModalContainer modal={modal} setModal={setModal} />
+      <NavBar />
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection setModal={setModal} />
+      <TechSection />
+      <ContactSection />
+      <ModalContainer modal={modal} setModal={setModal} />
     </div>
   );
 }
