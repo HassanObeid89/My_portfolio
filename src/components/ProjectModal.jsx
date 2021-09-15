@@ -1,10 +1,10 @@
 export default function ProjectModal({ project }) {
   const { image, title, description, pills } = project;
-  const pill = pills.map((pill) => <li>{pill}</li>);
+  const pill = pills.map((pill, index) => <li key={index}>{pill}</li>);
   return (
     <div className="modal-project">
       <div className="header">
-        <img src={image} />
+        <img src={image} alt="" />
       </div>
       <div className="content-wrapper">
         <h2>{title}</h2>

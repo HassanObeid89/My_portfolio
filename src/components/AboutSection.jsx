@@ -14,7 +14,7 @@ export default function AboutSection() {
         </p>
         <img
           src={profile}
-          alt="A professional picture of a guy with big eyes, short beard and black shirt "
+          alt="A guy with big eyes, short beard and black shirt "
         />
       </div>
     </div>

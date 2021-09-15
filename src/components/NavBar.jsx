@@ -4,7 +4,7 @@ export default function NavBar() {
     <nav>
       <div className="logo">
         <a href="#hero">
-          <img src={Logo} />
+          <img src={Logo} alt='' />
         </a>
       </div>
       <div className="menu">

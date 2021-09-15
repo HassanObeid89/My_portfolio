@@ -39,12 +39,17 @@ export default function ContactSection() {
             <a
               href="https://www.linkedin.com/in/hassan-obeid-975bb4158/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin />
             </a>
           </li>
           <li>
-            <a href="https://github.com/HassanObeid89" target="_blank">
+            <a
+              href="https://github.com/HassanObeid89"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithubSquare />
             </a>
           </li>
