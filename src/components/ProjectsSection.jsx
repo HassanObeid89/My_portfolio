@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "./Card";
 import { data } from "../data/ProjectsList";
 import ProjectModal from "./ProjectModal";
@@ -11,7 +10,6 @@ export default function ProjectsSection({ setModal }) {
   function setProject(project) {
     setModal(<ProjectModal project={project} />);
   }
-
   return (
     <div className="project-container" id="projects">
       <h2>Projects</h2>

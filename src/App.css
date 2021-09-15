@@ -1,35 +1,20 @@
-@import './css/Navbar.css';
-@import './css/HeroSection.css';
-@import './css/AboutSection.css';
-@import './css/ProjectSection.css';
-@import './css/Card.css';
-@import './css/Modal.css';
-@import './css/Tech.css';
-@import './css/Contact.css';
-@import './css/ModalContainer.css';
+@import "./css/Navbar.css";
+@import "./css/HeroSection.css";
+@import "./css/AboutSection.css";
+@import "./css/ProjectSection.css";
+@import "./css/Card.css";
+@import "./css/Modal.css";
+@import "./css/Tech.css";
+@import "./css/Contact.css";
+@import "./css/ModalContainer.css";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 
 .App {
   text-align: center;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* shared Css between sections*/
-
- p {
+p {
   padding: 0 24px;
   text-align: left;
   font-style: normal;
@@ -38,10 +23,9 @@
   line-height: 22px;
   line-break: auto;
   margin-bottom: 16px;
-
 }
 
- h2 {
+h2 {
   text-align: left;
   font-style: normal;
   font-weight: normal;

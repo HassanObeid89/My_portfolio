@@ -1,40 +1,28 @@
 .hero-container {
-    position: relative;
-    max-width: 100%;
-    height: 100vh;
-    background: 
-    url('../assets/hero_portfolio4.jpg')
-    top center / 100% 100%
-     padding-box
-     content-box
-     transparent
-  }
+  height: 100vh;
+  background: url("../assets/hero_desktop.jpg") center center / 100% 100%
+    border-box no-repeat;
+}
 
+.hero-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #c4c4c4;
+  line-height: 41px;
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width: 960px) {
   .hero-container h1 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0 24px ;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    color: #C4C4C4;
-    line-height: 41px;
+    width: 30%;
+    font-size: 42px;
+    line-height: 60px;
+    color: white;
   }
-
-  @media screen and (min-width: 550px){
-    .hero-container h1 {
-      width: 30%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translateY(-50%);
-      transform: translateX(-50%);
-      margin: 0 24px ;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 42px;
-      line-height: 50px;
-      text-align: center;
-    }
-  }
+}

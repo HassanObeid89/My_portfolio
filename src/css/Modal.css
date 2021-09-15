@@ -55,13 +55,13 @@
   font-size: 16px;
   line-height: 16px;
   outline: none;
-  background-color: rgba(245,199,104,255);
+  background-color: rgba(245, 199, 104, 255);
 }
 
 .git-btn:hover {
-  box-shadow: inset 90% 0 0 0 rgba(245,199,104,255);
+  box-shadow: inset 90% 0 0 0 rgba(245, 199, 104, 255);
   cursor: pointer;
-  border: 3px solid rgba(245,199,104,255);
+  border: 3px solid rgba(245, 199, 104, 255);
   color: white;
   background-color: black;
 }
