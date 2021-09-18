@@ -1,5 +1,5 @@
 import vegan from '../assets/card_images/vegan-restuarant.png';
-import shoppingList from '../assets/card_images/shopping_list.jpg';
+import shoppingList from '../assets/card_images/shopping-list.png';
 import package_tracker from '../assets/card_images/package_tracker.jpg';
 import todo_list from '../assets/card_images/todo_list.jpg';
 import Ecommerce from '../assets/card_images/e-commerce.jpg';
@@ -13,8 +13,10 @@ export const data= [
     "id": 1,
     "title": "Shopping list",
     "image": shoppingList,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+    "description":"A shopping list web app that allow the user to create new items, mark them as completed and sort the list by name and price.",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form',],
+    "appUrl":'https://todo-app-4761c.firebaseapp.com/',
+    "github":'https://github.com/HassanObeid89/shopping-list',
     "completed":true
   },
   {
