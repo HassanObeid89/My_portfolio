@@ -7,6 +7,7 @@
   z-index: 100;
   width: 90%;
   height: auto;
+  max-height: 100%;
 }
 .modal-background {
   position: fixed;
