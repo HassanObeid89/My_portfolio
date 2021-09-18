@@ -11,7 +11,7 @@
   padding-inline-start: 0;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 960px) {
   .project-content {
     display: flex;
     width: 60%;

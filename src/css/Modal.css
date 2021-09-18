@@ -1,15 +1,17 @@
 .header img {
   max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 .modal-project h2 {
-  padding: 16px 8px 0px 8px;
+  padding: 8px 8px 0px 8px;
 }
 
 .modal-project p {
   margin: 8px 8px 16px 8px;
   padding: 0px;
+  font-size: 12px;
 }
 
 .btn-container {
@@ -32,17 +34,8 @@
   line-height: 16px;
   outline: none;
   background-color: black;
-  margin: 4px;
+  margin: 4px;  
 }
-
-.app-btn:hover {
-  box-shadow: inset 90% 0 0 0 white;
-  cursor: pointer;
-  border: 3px solid black;
-  color: black;
-  background-color: white;
-}
-
 .git-btn {
   width: 100%;
   height: 44px;
@@ -56,7 +49,22 @@
   line-height: 16px;
   outline: none;
   background-color: rgba(245, 199, 104, 255);
+  margin: 4px; 
 }
+.btn-container a{
+  width: 100%;
+}
+
+
+.app-btn:hover {
+  box-shadow: inset 90% 0 0 0 white;
+  cursor: pointer;
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+
+
 
 .git-btn:hover {
   box-shadow: inset 90% 0 0 0 rgba(245, 199, 104, 255);
@@ -74,8 +82,9 @@
   border-radius: 16px;
   padding: 4px 4px;
   margin: 4px;
+  font-size: 12px;
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 960px) {
   .modal-project {
     display: flex;
     width: 100%;
@@ -85,10 +94,16 @@
   }
 
   .content-wrapper {
-    width: 60%;
+    width: 90%;
     margin-left: 16px;
   }
   .content-wrapper h2 {
-    font-size: 42px;
+    font-size: 36px;
+  }
+  .content-wrapper ul li {
+    font-size: 16px;
+  }
+  .modal-project p {
+    font-size: 16px;
   }
 }
