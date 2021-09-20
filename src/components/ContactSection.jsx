@@ -37,7 +37,7 @@ export default function ContactSection() {
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/hassan-obeid-975bb4158/"
+              href="https://www.linkedin.com/in/hasse-obeid-975bb4158/"
               target="_blank"
               rel="noreferrer"
             >
