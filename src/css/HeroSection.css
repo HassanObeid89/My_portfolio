@@ -1,7 +1,13 @@
 .hero-container {
   height: 100vh;
-  background: url("../assets/hero_desktop.jpg") center center / 100% 100%
-    border-box no-repeat;
+  /* background: url("../assets/hero_desktop.jpg") center center / 100% 100%
+    border-box no-repeat; */
+    background: radial-gradient(
+      at center center,
+      rgba(230, 120, 52, 0.5) 0.5%,
+      #1313137c 100%
+    ),
+    url("../assets/hero_desktop.jpg") center center / 100%;
 }
 
 .hero-container h1 {
@@ -16,6 +22,7 @@
   line-height: 41px;
   width: 80%;
   height: auto;
+  
 }
 
 @media screen and (min-width: 960px) {

@@ -1,6 +1,6 @@
 import vegan from '../assets/card_images/vegan-restuarant.png';
 import shoppingList from '../assets/card_images/shopping-list.png';
-import package_tracker from '../assets/card_images/package_tracker.jpg';
+import package_tracker from '../assets/card_images/package-tracker.png';
 import todo_list from '../assets/card_images/todo_list.jpg';
 import Ecommerce from '../assets/card_images/e-commerce.jpg';
 import BBQ from '../assets/card_images/BBQ.jpg';
@@ -53,9 +53,11 @@ export const data= [
     "id": 4,
     "title": "Package tracker",
     "image": package_tracker,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
+    "description":"This project is a Package Tracker app for customers that displays a list of orders with some details fetched from API endpoint, and shows the location of the parcel on the map. this project integrated google maps API. It uses:",
+    "pills":['React', 'FireBase', 'CSS', 'Moment', 'Google-Map-React','React-Spinners','React-Icons'],
+    "appUrl":'https://package-tracker-46db9.web.app/',
+    "github":'https://github.com/HassanObeid89/package-tracker',
+    "completed":true
   },
   {
     "id": 5,
