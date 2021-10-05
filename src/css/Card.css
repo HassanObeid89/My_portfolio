@@ -2,6 +2,7 @@
   width: 156px;
   height: 116px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .card-container li {

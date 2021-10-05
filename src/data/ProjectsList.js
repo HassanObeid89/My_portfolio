@@ -1,7 +1,7 @@
 import vegan from '../assets/card_images/vegan-restuarant.png';
 import shoppingList from '../assets/card_images/shopping-list.png';
 import package_tracker from '../assets/card_images/package-tracker.png';
-import todo_list from '../assets/card_images/todo_list.jpg';
+import Tdd_todo_list from '../assets/card_images/Tdd_todo_list.png';
 import Ecommerce from '../assets/card_images/e-commerce.jpg';
 import BBQ from '../assets/card_images/BBQ.jpg';
 import learning_platform from '../assets/card_images/learning_platform.jpg';
@@ -15,7 +15,7 @@ export const data= [
     "image": shoppingList,
     "description":"A shopping list web app that allow the user to create new items, mark them as completed and sort the list by name and price.",
     "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form',],
-    "appUrl":'https://todo-app-4761c.firebaseapp.com/',
+    "appUrl":'https://shopping-list-4265b.web.app/',
     "github":'https://github.com/HassanObeid89/shopping-list',
     "completed":true
   },
@@ -62,10 +62,12 @@ export const data= [
   {
     "id": 5,
     "title": "Todo list TTD",
-    "image": todo_list,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
+    "image": Tdd_todo_list,
+    "description":"This is not a new shopping list app, it is Eika app that allow users to add items to their shopping list, but with unit testing.",
+    "pills":['React', 'FireBase', 'CSS','react-icons','Jest','React-testing-library'],
+    "appUrl":'https://todo-app-4761c.web.app/',
+    "github":'https://github.com/HassanObeid89/testing-todo-app',
+    "completed":true
   },
   {
     "id": 6,

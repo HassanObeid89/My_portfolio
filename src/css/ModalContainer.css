@@ -1,4 +1,7 @@
 .modal-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -6,8 +9,10 @@
   background-color: white;
   z-index: 100;
   width: 90%;
+  max-width: 860px;
   height: auto;
-  max-height: 100%;
+  max-height: 560px;
+  overflow: auto;
 }
 .modal-background {
   position: fixed;
@@ -27,8 +32,6 @@
   font-size: 20px;
 }
 
-@media screen and (min-width: 550px) {
-  .modal-window {
-    max-width: 60%;
-  }
-}
+
+
+
