@@ -19,7 +19,8 @@
 }
 
 .btn-container{
-  padding: 12px 12px;
+  width:80%;
+  margin:8px auto;
 }
 
 .app-btn {
@@ -105,5 +106,7 @@
     position: absolute;
     top: 90%;
     transform: translate(50px,-50px);
+    width: 30%;
   }
+  
 }
