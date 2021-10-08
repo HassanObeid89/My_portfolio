@@ -2,7 +2,6 @@ import vegan from '../assets/card_images/vegan-restuarant.png';
 import shoppingList from '../assets/card_images/shopping-list.png';
 import package_tracker from '../assets/card_images/package-tracker.png';
 import Tdd_todo_list from '../assets/card_images/Tdd_todo_list.png';
-import Ecommerce from '../assets/card_images/e-commerce.jpg';
 import BBQ from '../assets/card_images/BBQ.jpg';
 import learning_platform from '../assets/card_images/learning_platform.jpg';
 import netflix from '../assets/card_images/netflix.jpg';
@@ -21,7 +20,7 @@ export const data= [
   },
   {
     "id": 2,
-    "title": "Vegan restaurant website",
+    "title": "Vegan restaurant",
     "image": vegan,
     "description":"A vegan restaurant webapp where users can see the product categories, each category is a direct link from the navigation so they can find easly what they are looking for with alot of information about each category, dishes and drinks. A contact page that prepared to implement the booking system later on.",
     "pills":['React', 'FireBase', 'CSS', 'React-router','Json'],
@@ -71,14 +70,6 @@ export const data= [
   },
   {
     "id": 6,
-    "title": "E-commerce site",
-    "image": Ecommerce,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
-  },
-  {
-    "id": 7,
     "title": "BBQ restaurant",
     "image": BBQ,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -86,7 +77,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "Learning platform",
     "image": learning_platform,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
@@ -94,7 +85,7 @@ export const data= [
     "completed":false
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Netflix clone",
     "image": netflix,
     "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
