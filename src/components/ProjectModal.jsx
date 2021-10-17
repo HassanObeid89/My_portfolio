@@ -19,7 +19,6 @@ export default function ProjectModal({ project }) {
           </a>
         </div>
       </div>
-      
     </div>
   );
 }

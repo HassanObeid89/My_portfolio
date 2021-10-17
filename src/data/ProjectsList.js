@@ -2,7 +2,7 @@ import vegan from '../assets/card_images/vegan-restuarant.png';
 import shoppingList from '../assets/card_images/shopping-list.png';
 import package_tracker from '../assets/card_images/package-tracker.png';
 import Tdd_todo_list from '../assets/card_images/Tdd_todo_list.png';
-import BBQ from '../assets/card_images/BBQ.jpg';
+import BBQ from '../assets/card_images/BBQ1.png';
 import learning_platform from '../assets/card_images/learning_platform.jpg';
 import netflix from '../assets/card_images/netflix.jpg';
 import defektabilar from '../assets/card_images/defekta-bilar.png'
@@ -72,9 +72,11 @@ export const data= [
     "id": 6,
     "title": "BBQ restaurant",
     "image": BBQ,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
+    "description":"This is a BBQ Restuarant web app, that allow users to navigate easily between categories and have a detailed information for each products. An admin page that can be access adding '/admin' to the base URL. The admin page allows the owner to add, delete, edit products. It uses:",
+    "pills":['React', 'FireBase', 'FireStore' ,'CSS', 'Context-Api'],
+    "appUrl":'https://bbq-restaurant-7211b.web.app/',
+    "github":'https://github.com/HassanObeid89/bbq-restaurant',
+    "completed":true
   },
   {
     "id": 7,
