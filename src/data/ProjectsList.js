@@ -82,16 +82,20 @@ export const data= [
     "id": 7,
     "title": "Learning platform",
     "image": learning_platform,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
+    "description":"This is a Learnin management system web app, that allow Students to learn how to code online and the teacher to add, update and delete courses. It uses:",
+    "pills":['React', 'FireBase', 'CloudStorage', 'FireStore', 'ContextApi'],
+    "appUrl":'https://learning-management-syst-2a323.web.app/',
+    "github":'https://github.com/HassanObeid89/learning-management-system',
+    "completed":true
   },
   {
     "id": 8,
     "title": "Netflix clone",
     "image": netflix,
-    "description":"This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-    "pills":['React', 'FireBase', 'Tailwind CSS', 'Yup', 'React-hook-form'],
-    "completed":false
+    "description":"This is a Netflix clone with admin interface that allow the admin to create new series, movies and documentaries. It uses:",
+    "pills":['React', 'FireBase', 'Auth', 'FireStore', 'CloudStorage', 'ContextApi'],
+    "appUrl":'https://netflix-92de3.firebaseapp.com/',
+    "github":'https://github.com/HassanObeid89/netfilx',
+    "completed":true
   }
 ]
