@@ -72,7 +72,7 @@ export const data= [
     "id": 6,
     "title": "BBQ restaurant",
     "image": BBQ,
-    "description":"This is a BBQ Restuarant web app, that allow users to navigate easily between categories and have a detailed information for each products. An admin page that can be access adding '/admin' to the base URL. The admin page allows the owner to add, delete, edit products. It uses:",
+    "description":"This is a BBQ Restuarant web app, that allow users to navigate easily between categories and have a detailed information for each products. An admin page that can be access by adding '/admin' to the base URL. The admin page allows the owner to add, delete, edit products. It uses:",
     "pills":['React', 'FireBase', 'FireStore' ,'CSS', 'Context-Api'],
     "appUrl":'https://bbq-restaurant-7211b.web.app/',
     "github":'https://github.com/HassanObeid89/bbq-restaurant',
@@ -82,8 +82,8 @@ export const data= [
     "id": 7,
     "title": "Learning platform",
     "image": learning_platform,
-    "description":"This is a Learnin management system web app, that allow Students to learn how to code online and the teacher to add, update and delete courses. It uses:",
-    "pills":['React', 'FireBase', 'CloudStorage', 'FireStore', 'ContextApi'],
+    "description":"This is a Learning management system web app, that allow Students to learn how to code online and the teacher to add, update and delete courses. It uses:",
+    "pills":['React', 'CSS', 'FireBase', 'CloudStorage', 'FireStore', 'ContextApi'],
     "appUrl":'https://learning-management-syst-2a323.web.app/',
     "github":'https://github.com/HassanObeid89/learning-management-system',
     "completed":true
@@ -93,7 +93,7 @@ export const data= [
     "title": "Netflix clone",
     "image": netflix,
     "description":"This is a Netflix clone with admin interface that allow the admin to create new series, movies and documentaries. It uses:",
-    "pills":['React', 'FireBase', 'Auth', 'FireStore', 'CloudStorage', 'ContextApi'],
+    "pills":['React', 'CSS', 'FireBase', 'Auth', 'FireStore', 'CloudStorage', 'ContextApi'],
     "appUrl":'https://netflix-92de3.firebaseapp.com/',
     "github":'https://github.com/HassanObeid89/netfilx',
     "completed":true
