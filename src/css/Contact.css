@@ -31,7 +31,8 @@
   margin: 0 8px;
 }
 .contact-container ul li svg {
-  background: rgba(230, 120, 52, 255);
+  /* background: rgba(230, 120, 52, 255); */
+  background: #fe6944;
   border-radius: 100px;
   color: white;
   padding: 6px;

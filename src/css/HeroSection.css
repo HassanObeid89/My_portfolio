@@ -1,16 +1,15 @@
-.hero-container {
+.hero-container img {
+  width: 100%;
+  object-fit: cover;
   height: 100vh;
-  /* background: url("../assets/hero_desktop.jpg") center center / 100% 100%
-    border-box no-repeat; */
-    background: radial-gradient(
-      at center center,
-      rgba(230, 120, 52, 0.5) 0.5%,
-      #1313137c 100%
-    ),
-    url("../assets/hero_desktop.jpg") center center / 100%;
+  filter: brightness(35%);
 }
 
-.hero-container h1 {
+.hero-container{
+  height: auto;
+}
+
+.hero-container .slogen {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -19,17 +18,19 @@
   font-weight: normal;
   font-size: 28px;
   color: #c4c4c4;
-  line-height: 41px;
-  width: 80%;
+  width: 100%;
   height: auto;
-  
+}
+
+.slogen p{
+  text-align: center;
+  font-size: 35px;
 }
 
 @media screen and (min-width: 960px) {
   .hero-container h1 {
-    width: 30%;
+    /* width: 30%; */
     font-size: 42px;
-    line-height: 60px;
     color: white;
   }
 }
